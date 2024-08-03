@@ -56,7 +56,7 @@ function Home() {
                                 <p className=" text-gray-600">place: <span className=" text-gray-600"></span>{item.place}</p>
                             </div>
 
-                            <Link to={`/book/${item._id}`} className=" border-[2px] border-[#102C57] px-4 py-1 rounded-2xl m-4 cursor-pointer hover:bg-[#102C57] hover:text-white text-center">Report</Link>
+                            <Link to={`/book/${item._id}`} className=" border-[2px] border-[#102C57] px-4 py-1 rounded-2xl m-4 cursor-pointer hover:bg-[#102C57] hover:text-white text-center">book</Link>
                             
                         </div>
                     );
